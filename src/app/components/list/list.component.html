@@ -1,0 +1,14 @@
+<mat-toolbar color="primary">
+  <span>Tarefas</span>
+</mat-toolbar>
+<mat-selection-list #task>
+  <ng-container *ngFor="let task of tasks">
+    <mat-list-option>
+      {{ task.title }}
+    </mat-list-option>
+  </ng-container>
+</mat-selection-list>
+<mat-divider></mat-divider>
+<ng-container *ngIf="tasks === []">
+  <p>Parabéns, não tem mais tarefas!</p>
+</ng-container>
