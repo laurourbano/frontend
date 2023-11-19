@@ -7,9 +7,16 @@ import { Task } from '../models/task';
 })
 export class TaskService {
   tasks: Task[] = [
-    { title: 'First task', done: false },
-    { title: 'Second task', done: false },
-    { title: 'Third task', done: false },
+    { id: 1, title: 'First task', done: false },
+    { id: 2, title: 'Second task', done: false },
+    { id: 3, title: 'Third task', done: false },
+    { id: 4, title: 'Fourth task', done: false },
+    { id: 5, title: 'Fifth task', done: false },
+    { id: 6, title: 'Sixth task', done: false },
+    { id: 7, title: 'Seventh task', done: false },
+    { id: 8, title: 'Eighth task', done: false },
+    { id: 9, title: 'Ninth task', done: false },
+    { id: 10, title: 'Tenth task', done: false },
   ];
 
   constructor(private http: HttpClient) {}
