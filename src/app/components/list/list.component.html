@@ -28,7 +28,9 @@
       <ng-container matColumnDef="actions">
         <mat-header-cell *matHeaderCellDef mat-sort-header> Actions </mat-header-cell>
         <mat-cell *matCellDef="let row">
-          <mat-checkbox>Done</mat-checkbox>
+          <button mat-icon-button>
+            <mat-icon class="mat-18">edit</mat-icon>
+          </button>
           <button mat-icon-button>
             <mat-icon class="mat-18">delete</mat-icon>
           </button>
