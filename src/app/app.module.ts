@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListComponent } from './components/list/list.component';
 import { FormComponent } from './components/form/form.component';
-import { ListItemComponent } from './components/list-item/list-item.component';
 import { NavComponent } from './shared/nav/nav.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -16,7 +15,6 @@ import { HttpClientModule } from '@angular/common/http';
     AppComponent,
     ListComponent,
     FormComponent,
-    ListItemComponent,
     NavComponent,
   ],
   imports: [
